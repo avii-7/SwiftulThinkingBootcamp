@@ -1,0 +1,79 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld item(s)" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "%lld item(s)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Change" : {
+
+    },
+    "Content transition" : {
+
+    },
+    "Distance: %lf km" : {
+
+    },
+    "Execute" : {
+
+    },
+    "Hello World" : {
+
+    },
+    "HELLO_WORLD" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello World %@"
+          }
+        }
+      }
+    },
+    "Hello, %@!" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "I love you 💕" : {
+
+    },
+    "No Localization" : {
+
+    },
+    "Password" : {
+
+    },
+    "WELCOME %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome Brother %@"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

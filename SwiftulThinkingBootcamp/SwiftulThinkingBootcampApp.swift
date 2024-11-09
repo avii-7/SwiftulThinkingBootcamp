@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftulThinkingBootcampApp: App {
+    
+    private let localize = LocalizedStrings()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
