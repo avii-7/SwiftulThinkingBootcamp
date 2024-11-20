@@ -23,6 +23,9 @@
         }
       }
     },
+    "Animate" : {
+
+    },
     "Change" : {
 
     },
@@ -33,6 +36,9 @@
 
     },
     "Execute" : {
+
+    },
+    "Hello world" : {
 
     },
     "Hello World" : {
@@ -55,7 +61,13 @@
     "Hello, World!" : {
 
     },
+    "Hey" : {
+
+    },
     "I love you 💕" : {
+
+    },
+    "Nice to have you here" : {
 
     },
     "No Localization" : {
