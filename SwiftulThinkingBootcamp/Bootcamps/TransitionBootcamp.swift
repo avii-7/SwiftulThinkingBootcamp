@@ -26,7 +26,8 @@ struct TransitionBootcamp: View {
                 if showPopup {
                     RoundedRectangle(cornerRadius: 10)
                         .frame(width: geo.size.width,  height: geo.size.height * 0.5)
-                        .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .trailing)))
+                        .transition(.move(edge: .bottom))
+//                        .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .trailing)))
                 }
             }
             .ignoresSafeArea(edges: .bottom)
