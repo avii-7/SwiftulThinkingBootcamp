@@ -9,13 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Button("Execute") {
-                let bootcamp = PrintSeriesBootcamp()
-                bootcamp.execute()
-            }
-        }
-        .padding()
+        ListBootcamp()
     }
 }
 

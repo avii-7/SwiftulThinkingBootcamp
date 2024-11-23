@@ -13,7 +13,7 @@ struct Bootcamp2: View {
     
     var body: some View {
         Text("Hello World")
-            .font(.custom("Poppins-Bold", size: 34, relativeTo: .largeTitle))
+//            .font(.custom("Poppins-Bold", size: 34, relativeTo: .largeTitle))
             .baselineOffset(111)
 //            .lineSpacing(30)
             .underline()
