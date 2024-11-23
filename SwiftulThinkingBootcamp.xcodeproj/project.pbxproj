@@ -276,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftulThinkingBootcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = K7U24STGVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftulThinkingBootcamp/Info.plist;
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftulThinkingBootcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = K7U24STGVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftulThinkingBootcamp/Info.plist;

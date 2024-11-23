@@ -9,6 +9,21 @@ import SwiftUI
 
 struct IgnoreSafeAreaBootcamp: View {
     var body: some View {
+        parentViewWithColor
+    }
+    
+    private var parentViewWithColor: some View {
+        VStack {
+            Text("Hello World")
+                .frame(maxWidth: .infinity)
+                .background(.blue)
+                
+            Spacer()
+        }
+        .background(Color.red)
+    }
+    
+    private var oldContent: some View {
         VStack {
             Text("Hey")
                 .font(.largeTitle)
