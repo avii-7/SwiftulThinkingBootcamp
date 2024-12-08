@@ -17,9 +17,7 @@ struct PickerBootcamp: View {
     
     @State private var colors: [Color] = [.red, .yellow, .green]
     
-    var body: some View {
-        picker2
-    }
+    var body: some View { picker2 }
     
     private var picker1: some View {
         Picker("Picker", selection: $selectedColor) {
@@ -44,4 +42,5 @@ struct PickerBootcamp: View {
 
 #Preview {
     PickerBootcamp()
+        .padding()
 }
