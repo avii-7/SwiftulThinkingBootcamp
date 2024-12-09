@@ -6,13 +6,15 @@
 //
 
 /* My Learnings: 📝
- 1. Toggle initializer supports systemImage.
- 2. You can alos mutate the boolean value of array of type at once with the help of initializer that contains `sources` parameter.
- 2. There is one more cool toggle style `button`.
+ 1. Toggle initializers supports `systemImage`.
+ 2. You can also mutate the boolean value of array of type at once with the help of initializers that contains `sources` as a parameter.
+ 3. There is one more cool toggle style `button`.
+ 4. You can create custom toggle styles views like checkbox using `ToggleStyle` protocol.
  
  Pending:
- 1. Title and subtitle Label
- 2. Toggle with sources.
+ 1. Title and subtitle label (done)
+ 2. Toggle with sources. (done)
+ 3. ToggleStyle with Configuration. (done)
  */
 
 struct Person: Hashable, Identifiable {
@@ -34,7 +36,7 @@ struct ToogleBootcamp: View {
     
     var body: some View {
         VStack {
-            toggle2
+            toggle3
             
             List {
                 ForEach(persons, id: \.self) { item in
@@ -54,11 +56,60 @@ struct ToogleBootcamp: View {
         Toggle("Account Status", systemImage: "smallcircle.filled.circle", sources: $persons, isOn: \.isMale)
             .toggleStyle(.switch)
             .foregroundStyle(.red)
-        
     }
+    
+    private var toggle3: some View {
+        Toggle("Account Status 3", isOn: $toggleIsOn)
+            .toggleStyle(MixStateToggleStyle())
+            .foregroundStyle(.red)
+    }
+}
+
+struct CheckboxToggleStyle: ToggleStyle {
+    
+    func makeBody(configuration: Configuration) -> some View {
+        Button {
+            configuration.isOn.toggle()
+        } label: {
+            HStack {
+                Image(systemName: configuration.isOn ? "circle.fill" : "circle")
+                configuration.label
+            }
+        }
+        .buttonStyle(NoTapAnimationStyle())
+    }
+}
+
+struct MixStateToggleStyle: ToggleStyle {
+    
+    func makeBody(configuration: Configuration) -> some View {
+        Button {
+            configuration.isOn.toggle()
+        } label: {
+            Image(
+                systemName: configuration.isMixed
+                ? "minus.circle.fill" : configuration.isOn
+                ? "checkmark.circle.fill" : "circle.fill")
+            configuration.label
+        }
+    }
+}
+
+extension ToggleStyle where Self == CheckboxToggleStyle {
+    static var checkbox: CheckboxToggleStyle { .init() }
 }
 
 #Preview {
     ToogleBootcamp()
         .padding()
+}
+
+struct NoTapAnimationStyle: PrimitiveButtonStyle {
+    
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .contentShape(.rect)
+            .onTapGesture(perform: configuration.trigger)
+    }
+    
 }
