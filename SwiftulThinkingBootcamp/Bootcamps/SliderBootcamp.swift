@@ -9,6 +9,8 @@
  1. Slider only works with BinaryFloatingPointNumber (Double)
  2. Slider can work with range.
  3. You can also add step-up. If you specified Interger step-up, you can `.number` format for removing decimal digits.
+ Fun Fact 😁
+ 1. Try using systemImage as Minimum/Maximum label of slider, images will little animate.
  */
 
 import SwiftUI
