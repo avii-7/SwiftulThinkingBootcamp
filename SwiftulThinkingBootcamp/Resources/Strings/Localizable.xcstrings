@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@" : {
+
+    },
     "%lld item(s)" : {
       "localizations" : {
         "en" : {
@@ -23,16 +26,97 @@
         }
       }
     },
+    "Account" : {
+
+    },
+    "Account Status" : {
+
+    },
+    "Account Status 3" : {
+
+    },
+    "AccountView" : {
+
+    },
+    "Adaptable Color Text View" : {
+
+    },
+    "Add" : {
+
+    },
     "Animate" : {
+
+    },
+    "Are you sure ?" : {
+
+    },
+    "Auto-Join" : {
+
+    },
+    "Button" : {
+
+    },
+    "Cancel" : {
 
     },
     "Change" : {
 
     },
+    "Colors" : {
+
+    },
     "Content transition" : {
 
     },
+    "Copy" : {
+
+    },
+    "Count: %lld" : {
+
+    },
+    "Cut" : {
+
+    },
+    "Dark Mode" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Disconnet" : {
+
+    },
     "Distance: %lf km" : {
+
+    },
+    "Drafts" : {
+
+    },
+    "DraftsView" : {
+
+    },
+    "Enter your email address" : {
+
+    },
+    "Enter your favorite game" : {
+
+    },
+    "Enter your name" : {
+
+    },
+    "Fire" : {
+
+    },
+    "Forest" : {
+
+    },
+    "Forgot this network" : {
+
+    },
+    "Format Actions" : {
+
+    },
+    "Format Opttions" : {
 
     },
     "Fruits" : {
@@ -67,7 +151,31 @@
     "I love you 💕" : {
 
     },
+    "item is %lld" : {
+
+    },
+    "Light Mode" : {
+
+    },
     "ListBootcamp" : {
+
+    },
+    "Menu Header" : {
+
+    },
+    "Messages" : {
+
+    },
+    "Move" : {
+
+    },
+    "Move Multiple" : {
+
+    },
+    "Nice Picker" : {
+
+    },
+    "Nice to have you here" : {
 
     },
     "No Localization" : {
@@ -76,7 +184,85 @@
     "Password" : {
 
     },
+    "Picker" : {
+
+    },
+    "Please select some items 😢" : {
+
+    },
+    "Received" : {
+
+    },
+    "ReceivedView" : {
+
+    },
+    "Request View" : {
+
+    },
+    "Requests" : {
+
+    },
+    "Select your anniversery date" : {
+
+    },
+    "Select your birthday date" : {
+
+    },
+    "Select your color" : {
+
+    },
+    "Select your graduation year:" : {
+
+    },
+    "Sent" : {
+
+    },
+    "SentView" : {
+
+    },
+    "Show" : {
+
+    },
+    "Show Alert" : {
+
+    },
+    "Show Sheet" : {
+
+    },
+    "ShowSheet" : {
+
+    },
+    "Success 2" : {
+
+    },
+    "Text Button" : {
+
+    },
+    "Text Editor Bootcamp" : {
+
+    },
+    "TextField Bootcamp !!!" : {
+
+    },
+    "This is primary text view" : {
+
+    },
+    "This is red secondary text view" : {
+
+    },
+    "This is red text view" : {
+
+    },
+    "This is secondary text views" : {
+
+    },
+    "This is tertiary Text view" : {
+
+    },
     "Vegies" : {
+
+    },
+    "Water" : {
 
     },
     "WELCOME %@" : {
@@ -88,6 +274,15 @@
           }
         }
       }
+    },
+    "You are about to delete the item" : {
+
+    },
+    "Your amount" : {
+
+    },
+    "Ziroh Labs Wifi 1" : {
+
     }
   },
   "version" : "1.0"
