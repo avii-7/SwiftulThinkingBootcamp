@@ -104,6 +104,9 @@
     "Enter your name" : {
 
     },
+    "Find your match" : {
+
+    },
     "Fire" : {
 
     },
@@ -181,6 +184,9 @@
     "No Localization" : {
 
     },
+    "OK" : {
+
+    },
     "Password" : {
 
     },
@@ -211,6 +217,9 @@
     "Select your color" : {
 
     },
+    "Select your Gender" : {
+
+    },
     "Select your graduation year:" : {
 
     },
@@ -230,6 +239,9 @@
 
     },
     "ShowSheet" : {
+
+    },
+    "SIGN OUT" : {
 
     },
     "Success 2" : {
@@ -259,6 +271,9 @@
     "This is tertiary Text view" : {
 
     },
+    "This is the #1 app for finding your\nmatch online !" : {
+
+    },
     "Vegies" : {
 
     },
@@ -275,10 +290,28 @@
         }
       }
     },
+    "What's your age?" : {
+
+    },
+    "What's your Gender?" : {
+
+    },
+    "What's your name?" : {
+
+    },
     "You are about to delete the item" : {
 
     },
+    "Your age is: %lld" : {
+
+    },
     "Your amount" : {
+
+    },
+    "Your gender is: %@" : {
+
+    },
+    "Your name here..." : {
 
     },
     "Ziroh Labs Wifi 1" : {
