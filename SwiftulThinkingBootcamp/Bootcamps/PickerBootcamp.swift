@@ -36,7 +36,7 @@ struct PickerBootcamp: View {
         } currentValueLabel: {
             Label("\(selectedColor.description)", systemImage: "fire")
         }
-        .pickerStyle(.segmented)
+        .pickerStyle(.wheel)
     }
 }
 
