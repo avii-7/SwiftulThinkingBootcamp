@@ -5,13 +5,26 @@
 //  Created by Arun on 09/11/24.
 //
 
+/* Learnings:
+ 1. You can use button styles for button look and feel.
+ 2. By default button text is visible in accent color, you can use `.buttonStyle(.plain)` to
+    remove that.
+ 3. You can use .controlSize() modifier to add padding around buttons
+ */
+
 import SwiftUI
 
 struct ButtonsBootcamp: View {
     var body: some View {
-        HStack(spacing: 20) {
-            button1
-            button2
+//        HStack(spacing: 20) {
+//            button1
+//            button2
+//        }
+        
+        VStack {
+            button3
+            button4
+            button5
         }
     }
     
@@ -48,6 +61,29 @@ struct ButtonsBootcamp: View {
         }
         .foregroundStyle(.blue)
         .buttonStyle(ScaleButtonStyle())
+    }
+    
+    private var button3: some View {
+        Button("Press me") {
+            
+        }
+        .buttonStyle(.borderedProminent)
+        .buttonBorderShape(.capsule)
+        .controlSize(.extraLarge)
+    }
+    
+    private var button4: some View {
+        Button("Press me") {
+            
+        }
+        .buttonStyle(.bordered)
+    }
+    
+    private var button5: some View {
+        Button("Press me") {
+            
+        }
+        .buttonStyle(.plain)
     }
 }
 
