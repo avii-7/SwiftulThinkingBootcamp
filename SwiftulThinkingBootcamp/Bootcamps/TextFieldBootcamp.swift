@@ -10,6 +10,7 @@
     a. Use PersonNameComponents instance as binding with `.name` format for better name structring.
     b. Use double as binding and then pass .currency(name) as a parameter to show currecy symbol.
  2. You can create a textfield that grow vertically by using `axis` modifier in the initializer.
+ 3. You can also customize submit label in keyboard.
  */
 
 import SwiftUI
@@ -33,6 +34,7 @@ struct TextFieldBootcamp: View {
                 TextField("Enter your name", value: $nameComponents, format: .name(style:.medium))
                 
                 TextField.init("Your amount", value: $number, format: .currency(code: "INR"))
+                    .submitLabel(.go)
                 
                 TextField(text: $text, axis: .vertical) {
                     Text("Enter your favorite game")

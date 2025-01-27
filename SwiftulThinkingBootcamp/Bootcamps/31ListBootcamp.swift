@@ -16,6 +16,7 @@
  * Accent Color is deprecated, use foreground color
  * Add accent color in assets, all the app button color will convert to that color.
  6. List row background modifier
+ 7. You can also add badges to the list.
  */
 
 import SwiftUI
@@ -50,7 +51,15 @@ extension ListBootcamp {
         List {
             Section(isExpanded: $isVegiesExpanded) {
                 ForEach(vegies, id: \.self) { item in
-                    Text(item)
+                    
+                    if item == vegies.last {
+                        Text(item)
+                            .badge(Text(1, format: .currency(code: "INR")).foregroundStyle(.red))
+                            
+                    }
+                    else {
+                        Text(item)
+                    }
                 }
                 .onDelete(perform: onDelete)
                 .onMove(perform: onMove)

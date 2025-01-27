@@ -47,10 +47,16 @@
     "Animate" : {
 
     },
+    "Archive" : {
+
+    },
     "Are you sure ?" : {
 
     },
     "Auto-Join" : {
+
+    },
+    "Be Careful !!" : {
 
     },
     "Button" : {
@@ -194,6 +200,9 @@
 
     },
     "Please select some items 😢" : {
+
+    },
+    "Press me" : {
 
     },
     "Received" : {
