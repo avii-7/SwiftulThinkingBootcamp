@@ -37,7 +37,7 @@ struct ContextMenuBootcamp: View {
     @State private var selectedColor = ZunuColor.colors.first!
     
     var body: some View {
-        contextMenu2
+        contextMenu4
     }
     
     private var contextMenu1: some View {
