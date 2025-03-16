@@ -4,6 +4,9 @@
     "%@" : {
 
     },
+    "%lld" : {
+
+    },
     "%lld item(s)" : {
       "localizations" : {
         "en" : {
@@ -25,6 +28,15 @@
           }
         }
       }
+    },
+    "1" : {
+
+    },
+    "2" : {
+
+    },
+    "3" : {
+
     },
     "Account" : {
 
@@ -53,6 +65,9 @@
     "Are you sure ?" : {
 
     },
+    "Arun" : {
+
+    },
     "Auto-Join" : {
 
     },
@@ -66,6 +81,12 @@
 
     },
     "Change" : {
+
+    },
+    "Chat" : {
+
+    },
+    "Check the spelling or try a new search" : {
 
     },
     "Colors" : {
@@ -95,6 +116,9 @@
     "Distance: %lf km" : {
 
     },
+    "Done" : {
+
+    },
     "Drafts" : {
 
     },
@@ -116,6 +140,9 @@
     "Fire" : {
 
     },
+    "Flame" : {
+
+    },
     "Forest" : {
 
     },
@@ -131,10 +158,22 @@
     "Fruits" : {
 
     },
+    "Go to Home" : {
+
+    },
     "Hello world" : {
 
     },
     "Hello World" : {
+
+    },
+    "Hello world 1" : {
+
+    },
+    "Hello world 2" : {
+
+    },
+    "Hello world 3" : {
 
     },
     "HELLO_WORLD" : {
@@ -157,7 +196,22 @@
     "Hey" : {
 
     },
+    "Hey " : {
+
+    },
     "I love you 💕" : {
+
+    },
+    "I'm " : {
+
+    },
+    "I'm Arun and I'm 25 years old and how are you ?" : {
+
+    },
+    "I'm Arun and I'm 25 years old and how are you ? How your day is going ?" : {
+
+    },
+    "I'm Arun. How are you ?" : {
 
     },
     "item is %lld" : {
@@ -181,16 +235,28 @@
     "Move Multiple" : {
 
     },
+    "Mutate" : {
+
+    },
     "Nice Picker" : {
 
     },
     "Nice to have you here" : {
 
     },
+    "No fruit selected !!" : {
+
+    },
     "No Localization" : {
 
     },
+    "No search results for \"%@\"" : {
+
+    },
     "OK" : {
+
+    },
+    "Options" : {
 
     },
     "Password" : {
@@ -215,6 +281,15 @@
 
     },
     "Requests" : {
+
+    },
+    "SafeArea Inset" : {
+
+    },
+    "Screen 1" : {
+
+    },
+    "Screen 2" : {
 
     },
     "Select your anniversery date" : {
@@ -242,6 +317,9 @@
 
     },
     "Show Alert" : {
+
+    },
+    "Show Popover" : {
 
     },
     "Show Sheet" : {
@@ -283,6 +361,9 @@
     "This is the #1 app for finding your\nmatch online !" : {
 
     },
+    "Toolbar bootcamp" : {
+
+    },
     "Vegies" : {
 
     },
@@ -321,6 +402,9 @@
 
     },
     "Your name here..." : {
+
+    },
+    "Your selected fruit is: %@" : {
 
     },
     "Ziroh Labs Wifi 1" : {
