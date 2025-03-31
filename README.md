@@ -1,3 +1,6 @@
-### Following SwiftUI Bootcamp (Beginner Level) playlist for Sharpening my SwiftUI skills.
+# Sharping my SwiftUI skills.
 
-[Link](https://www.youtube.com/playlist?list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO)
+### Playlists I follow ✈️ :
+
+1. Beginner Level -> [Link](https://www.youtube.com/playlist?list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO)
+2. Intermediate Level -> [Link](https://www.youtube.com/playlist?list=PLwvDm4VfkdpiagxAXCT33Rkwnc5IVhTar)
