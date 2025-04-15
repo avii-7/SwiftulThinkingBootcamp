@@ -4,6 +4,9 @@
     "%@" : {
 
     },
+    "%lf" : {
+
+    },
     "%lld" : {
 
     },
@@ -68,6 +71,9 @@
     "Arun" : {
 
     },
+    "Arun Kumar" : {
+
+    },
     "Auto-Join" : {
 
     },
@@ -87,6 +93,9 @@
 
     },
     "Check the spelling or try a new search" : {
+
+    },
+    "Click Here" : {
 
     },
     "Colors" : {
@@ -125,6 +134,12 @@
     "DraftsView" : {
 
     },
+    "Enter a number here" : {
+
+    },
+    "Enter fruit name" : {
+
+    },
     "Enter your email address" : {
 
     },
@@ -159,6 +174,9 @@
 
     },
     "Go to Home" : {
+
+    },
+    "Hello Universe" : {
 
     },
     "Hello world" : {
@@ -217,6 +235,9 @@
     "item is %lld" : {
 
     },
+    "Jerry" : {
+
+    },
     "Light Mode" : {
 
     },
@@ -265,6 +286,12 @@
     "Picker" : {
 
     },
+    "Play Sound 1" : {
+
+    },
+    "Play Sound 2" : {
+
+    },
     "Please select some items 😢" : {
 
     },
@@ -283,6 +310,9 @@
     "Requests" : {
 
     },
+    "Reset" : {
+
+    },
     "SafeArea Inset" : {
 
     },
@@ -290,6 +320,12 @@
 
     },
     "Screen 2" : {
+
+    },
+    "Scroll" : {
+
+    },
+    "Scroll to bottom" : {
 
     },
     "Select your anniversery date" : {
@@ -319,6 +355,9 @@
     "Show Alert" : {
 
     },
+    "Show Available In India" : {
+
+    },
     "Show Popover" : {
 
     },
@@ -329,6 +368,12 @@
 
     },
     "SIGN OUT" : {
+
+    },
+    "SignUp" : {
+
+    },
+    "Sort" : {
 
     },
     "Success 2" : {
@@ -361,7 +406,13 @@
     "This is the #1 app for finding your\nmatch online !" : {
 
     },
+    "Tom" : {
+
+    },
     "Toolbar bootcamp" : {
+
+    },
+    "Trying drag gesture to create bottom sheet like behavior" : {
 
     },
     "Vegies" : {
@@ -389,8 +440,21 @@
     "What's your name?" : {
 
     },
+    "Yooo %@" : {
+
+    },
     "You are about to delete the item" : {
 
+    },
+    "You can zoom me !!! \n %lf \n %lf " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "You can zoom me !!! \n %1$lf \n %2$lf "
+          }
+        }
+      }
     },
     "Your age is: %lld" : {
 
