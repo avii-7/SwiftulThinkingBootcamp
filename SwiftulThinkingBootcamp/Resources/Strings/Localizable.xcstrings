@@ -440,6 +440,16 @@
     "What's your name?" : {
 
     },
+    "Width: %lf Height: %lf" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Width: %1$lf Height: %2$lf"
+          }
+        }
+      }
+    },
     "Yooo %@" : {
 
     },
